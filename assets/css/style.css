@@ -1,0 +1,13 @@
+*{
+	margin: 0;
+	padding: 0px;
+	overflow-x: hidden;
+}
+
+.img{
+	background-image: url(../img/bg-header.jpg);
+	padding: 10px;
+	height: 1000px;
+	background-repeat: no-repeat;
+
+}
