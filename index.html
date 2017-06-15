@@ -2,12 +2,113 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Culinary</title>
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,900" rel="stylesheet">
+  <script src="https://use.fontawesome.com/2d099af049.js"></script>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
+ <nav class="navbar navbar-default navbar-inicial">
+    <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" font: 150% sans-serif;data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand navbar-principal" href="#">
+                        <img class="logo" src="assets/img/logo.png" alt="Logo">
+                    </a>
+                </div>
 
-<div class="img"></div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Values</a></li>
+            <li><a href="#">People</a></li>
+            <li><a href="#">Press</a></li>
+            <li><a href="#">Hours</a></li>
+            <li><a href="#">Menu</a></li>
+
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div>
+    </nav>
+    <div class="img">
+    	<img class="profile" src="assets/img/profile.png">
+    	 <div class="scroll-down">
+            <a class="btn page-scroll" href="#values">
+                <i class="fa fa-angle-down fa-fw fa-3x"></i>
+            </a>
+        </div>
+    </div>
+   
+<section class="segunda" id="values">
+        <div class="container">
+            <div class="text-center wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
+                <h1>Our Values</h1>
+                <hr class="colored">
+                <p>We create flavorsome, traditional dishes using fresh, local ingredients.</p>
+            </div>
+            <div class="row mt-4">
+                <div class="col-lg-4 wow fadeIn"  style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;">
+                    <div class="media">
+                        <div class="iconos">
+                            <i class="fa fa-shopping-cart rounded-circle fa-2x"></i>
+                        </div>
+                        <div class="media-body">
+                            <h3 class="media-heading">Lista</h3>
+                            <ul>
+                                <li>Fresh, local ingredients</li>
+                                <li>All natural and organic</li>
+                                <li>Carefully hand selected</li>
+                                <li>Tested for quality and taste</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 wow fadeIn" data-wow-delay=".4s" >
+                    <div class="media">
+                        <div class="iconos">
+                            <i class="fa fa-cutlery rounded-circle fa-2x "></i>
+                        </div>
+                        <div class="media-body">
+                            <h3 class="segunda-lista">Technique</h3>
+                            <ul>
+                                <li>Traditional preparation</li>
+                                <li>Classic combinations</li>
+                                <li>Complex flavor profiles</li>
+                                <li>Hygenic and sanitary</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 wow fadeIn" data-wow-delay=".6s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeIn;">
+                    <div class="media">
+                        <div class="iconos">
+                            <i class="fa fa-users rounded-circle fa-2x"></i>
+                        </div>
+                        <div class="media-body">
+                            <h3 class="tercera-lista">Community</h3>
+                            <ul>
+                                <li>Bakery rewards program</li>
+                                <li>Private events</li>
+                                <li>Personal catering menus</li>
+                                <li>Nightly community specials</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img class="pastel" src="assets/img/bg-quote.jpg">
+    </section>
+
 	
 </body>
 </html>

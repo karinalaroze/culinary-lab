@@ -1,13 +1,71 @@
-*{
+*{  
+	font-family: 'Lato', sans-serif;
 	margin: 0;
 	padding: 0px;
-	overflow-x: hidden;
 }
 
 .img{
 	background-image: url(../img/bg-header.jpg);
-	padding: 10px;
-	height: 1000px;
+	padding: 20px;
 	background-repeat: no-repeat;
+	margin-top: -80px;
 
+}
+
+.navbar-inicial{
+	background-color: transparent;
+	border: 0px;
+}
+.logo{
+	width: 100%;
+}
+
+.profile{
+	margin-left: 520px;
+	margin-top: 130px;
+}
+
+.collapse li a{
+	font: 120% sans-serif;
+
+}
+
+.scroll-down{
+	border-radius: 60px;
+	border: 2px solid white;
+	width: 50px;
+	height: 50px;
+	margin-left: 640px;
+     margin-top: 180px;
+}
+
+.page-scroll i{
+ color: white;
+ margin-left: -17px;
+ margin-top: -5px;
+ 
+}
+.segunda{
+	position:relative;
+}
+.container{
+	background-color: white;
+	width: 100%;
+}
+
+.iconos{
+	border-radius: 60px;
+	border: 3px solid black;
+	width: 50px;
+	height: 50px;
+
+}
+
+.rounded-circle{
+	margin-left: 5px;
+	margin-top: 6px;
+}
+
+.pastelito{
+	position: absolute;
 }
